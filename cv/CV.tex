@@ -1,0 +1,217 @@
+%-------------------------
+% Resume in Latex
+% Author : Binhui Xie
+% Website: https://github.com/files/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Binhui Xie} & Homepage: \href{https://binhuixie.github.io}{binhuixie.github.io} \\
+  Ph.D. Student, Beijing Institute of Technology & Email : \href{mailto:binhuixie@bit.edu.cn}{binhuixie@bit.edu.cn}\\
+  Address:  Room 1106, Central Teaching Building, BIT & Mobile : +86-188-1137-9626 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Beijing Institute of Technology}{Beijing, China}
+      {Ph.D. Student in School of Computer Science and Technology, Advisor: Prof. Shuang Li}{Sep. 2019 - Present}
+    \resumeSubheading
+      {Beijing Institute of Technology}{Beijing, China}
+      {B.Eng. in Software Engineering, GPA: 3.5/4.0}{Sep. 2015 - Jul. 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------Research Interests-----------------
+\section{Research Interests}
+My research interests are in transfer learning and data-efficient learning (particularly domain adaptation, active learning) and self-supervised learning across visual tasks and domains.
+
+%-----------Publications-----------------
+\section{Publications ($^*$co-first author)}
+% \textbf{Conference Publications}
+\begin{enumerate}
+    \item Mingjia Li$^*$, \textbf{Binhui Xie$^*$}, Shuang Li, Chi Harold Liu, Xinjing Cheng. \\
+    VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions, \textit{AAAI Conference on Artificial Intelligence} ({\bf AAAI}), 2023, Washington, DC, USA.
+
+    \item Jiashu Wu, Yang Wang, \textbf{Binhui Xie}, Shuang Li, Hao Dai, Kejiang Ye, Chengzhong Xu. \\
+    Joint Semantic Transfer Network for IoT Intrusion Detection, \textit{IEEE Internet of Things Journal} ({\bf IoT}), 2022.
+
+    \item  \textbf{Binhui Xie}, Shuang Li, Fangrui Lv, Chi Harold Liu, Guoren Wang, and Dapeng Wu. \\
+    A Collaborative Alignment Framework of Transferable Knowledge Extraction for Unsupervised Domain Adaptation, \textit{IEEE Transactions on Knowledge and Engineering} ({\bf TKDE}), 2022.
+
+    \item \textbf{Binhui Xie}, Longhui Yuan, Shuang Li, Chi Harold Liu and Xinjing Cheng. \\
+    Towards Fewer Annotations: Active Learning via Region Impurity and Prediction Uncertainty for Domain Adaptive Semantic Segmentation, \textit{IEEE Conference on Computer Vision and Pattern Recognition} ({\bf CVPR) \textcolor{red}{Oral Presentation}}, 2022, New Orleans, Louisiana, USA.
+
+    \item Shuang Li, {\bf Binhui Xie}, Qiuxia Lin, Chi Harold Liu, Gao Huang and Guoren Wang. \\
+    Generalized Domain Conditioned Network, \textit{IEEE Transactions on Pattern Analysis and Machine Intelligence} ({\bf \textcolor{red}{TPAMI}}), 44(8): 4093-4109 (2022).
+
+    \item \textbf{Binhui Xie}, Longhui Yuan, Shuang Li, Chi Harold Liu, Xinjing Cheng and Guoren Wang. \\
+    Active Learning for Domain Adaptation: An Energy-based Approach, \textit{AAAI Conference on Artificial Intelligence} ({\bf AAAI}), 2022, Virtual Conference.
+
+    \item Shuang Li, Kaixiong Gong, \textbf{Binhui Xie}, Chi Harold Liu, Weipeng Cao, Song Tian. \\ 
+    Critical Classes and Samples Discovering for Partial Domain Adaptation, \textit{IEEE Transactions on Cybernetics} ({\bf TCYB}), 2022.
+
+    \item Shuang Li, Fangrui Lv, \textbf{Binhui Xie}, Chi Harold Liu, Jian Liang, Chen Qin. \\
+    Bi-Classifier Determinacy Maximization for Unsupervised Domain Adaptation, \textit{AAAI Conference on Artificial Intelligence} ({\bf AAAI}), 2021, Virtual Conference.
+
+    \item Shuang Li, \textbf{Binhui Xie}, Jiashu Wu, Ying Zhao, Chi Harold Liu, Zhengming Ding. \\
+    Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation, \textit{ACM Multimedia} ({\bf MM}), 2020, Virtual Conference.
+
+    \item Shuang Li, Chi Harold Liu, Qiuxia Lin, \textbf{Binhui Xie}, Zhengming Ding, Gao Huang, Jian Tang. \\
+    Domain Conditioned Adaptation Network, \textit{AAAI Conference on Artificial Intelligence} ({\bf AAAI}), 2020, New York, NY, USA.
+
+    \item Shuang Li, Chi Harold Liu, \textbf{Binhui Xie}, Limin Su, Zhengming Ding, Gao Huang. \\
+    Joint Adversarial Domain Adaptation, \textit{ACM Multimedia} ({\bf MM}), 2019, Nice, France.
+    
+    \item Shuang Li, Chi Harold Liu, Limin Su, \textbf{Binhui Xie}, Zhengming Ding, C. L. Philip Chen, Dapeng Wu. \\ Discriminative Transfer Feature and Label Consistency for Cross-Domain Image Classification, \textit{IEEE Transactions on Neural Networks and Learning Systems} ({\bf TNNLS}), 31(11): 4842-4856 (2020).
+\end{enumerate}
+
+\textbf{Technical Reports}
+\begin{itemize}
+    \item Yuxin Fang, Wen Wang, \textbf{Binhui Xie}, Quan Sun, Ledell Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang, Yue Cao. EVA: Exploring the Limits of Masked Visual Representation Learning at Scale, arXiv:2211.07636.
+    \item \textbf{Binhui Xie}, Shuang Li, Mingjia Li, Chi Harold Liu, Gao Huang, Guoren Wang. 
+    SePiCo: Semantic-Guided Pixel Contrast for Domain Adaptive Semantic Segmentation, arXiv:2204.08808.
+    \item \textbf{Binhui Xie}, Mingjia Li Shuang Li. 
+    SPCL: A New Framework for Domain Adaptive Semantic Segmentation via Semantic Prototype-based Contrastive Learning, arXiv:2111.12358.
+    \item Shuang Li, \textbf{Binhui Xie}, Bin Zang, Chi Harold Liu, Xinjing Cheng, Ruigang Yang, Guoren Wang. 
+    Semantic Distribution-aware Contrastive Adaptation for Semantic Segmentation, arXiv:2105.05013. 
+\end{itemize}
+% Undergraduate's Thesis: Research on Generative Adversarial Networks Based Domain Adaptation, 2019.
+
+%-----------EXPERIENCE-----------------
+% \section{EXPERIENCE}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%     {Lab of Intelligent and Network Computing, Beijing Institute of Technology}{Beijing, China}
+%     {Research Assistant}{Oct 2018 - present}
+%     \resumeItemListStart
+%     \item\small{Research on domain adaptation algorithms for image classification and semantic segmentation tasks. \vspace{-2pt}}
+%     \resumeItemListEnd
+
+%   % \resumeSubheading
+%   %   {Chengdu Neusoft University}{Chengdu, China}
+%   %   {Software Engineer Internship}{Jun 2016 - Jul 2016}
+%   %   \resumeItemListStart
+%   %     \resumeItem{Java}
+%   %       {Complete application development course by Chengdu Neusoft University. Implement Timetable app using Android Studio. Excel in communication and teamwork at start-up companies.}
+%   %   \resumeItemListEnd
+
+%   \resumeSubHeadingListEnd
+
+
+% %-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
+% %     \resumeSubItem{Mac Setup}
+% %       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%   \resumeSubHeadingListEnd
+
+%-----------REVIEW SERVICES-----------------
+\section{Academic Services}
+\resumeSubHeadingListStart
+\item \textbf{Organizer} of Workshop: VALSE 2022 (Student Workshop).
+
+\item \textbf{Reviewer} for CVPR'23, ICLR'23, AAAI'23, ECCV'22, CVPR'22, AAAI'22, ICCV'21, CVPR'21, AAAI'21 etc.
+
+\item \textbf{Reviewer} for TPAMI, TNNLS, TMM, etc.
+
+%--------HONOR------------
+\section{Honors}
+ \resumeSubHeadingListStart
+%  \item \textbf{CETC GUORUI Scholarship}, CETC, 2021.
+  \item \textbf{Excellent Undergraduate}, Beijing Institute of Technology, 2019.
+  %  \item \textbf{Second Class Scholarship}, Beijing Institute of Technology, 2018. \vspace{-2pt}
+ \resumeSubHeadingListEnd
+
+
+ %--------Talks------------
+\section{Invited Talks}
+\resumeSubHeadingListStart
+  \item 2022.6, \textbf{ReadPaper}, Towards Fewer Annotations: Active Learning for Adaptive Semantic Segmentation. \vspace{-2pt} 
+  \item 2022.6, \textbf{Synced}, Towards Fewer Annotations: Active Learning for Adaptive Semantic Segmentation. \vspace{-2pt} 
+  \item 2022.5, \textbf{Zhidx Course}, Domain Adaptation meets Active Learning. \vspace{-2pt}  
+  \item 2022.03, \textbf{AI Drive}, Energy-based Active Domain Adaptation. \vspace{-2pt}
+  \item 2021.10, \textbf{VALSE}, Generalized Domain Conditioned Adaptation Network. \vspace{-2pt}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

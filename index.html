@@ -4,35 +4,40 @@ tags: about
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
-    function readMore() {
-        $('#readMore').hide();
-        $('#more').show();
-    }
+  function readMore() {
+    $('#readMore').hide();
+    $('#more').show();
+  }
 
-    function readLess() {
-        $('#readMore').show();
-        $('#more').hide();
-    }
+  function readLess() {
+    $('#readMore').show();
+    $('#more').hide();
+  }
 </script>
 
-<img src="{{ site.baseurl }}/images/me.jpg" alt="Binhui Xie" width="180" style="float: right; padding: 5px 0 0 15px; border-radius: 0%;" />
+<img src="{{ site.baseurl }}/images/me.jpg" alt="Binhui Xie" width="180"
+  style="float: right; padding: 5px 0 0 15px; border-radius: 0%;" />
 
 <div class="bio" style="text-align:justify">
-      <p>
-        I am a fourth-year Ph.D. student at Beijing Institute of Technology, advised by <a href="https://shuangli.xyz" class="uline">Prof. Shuang Li</a> and Prof. Chi Harold Liu. I received my Bachelor's degree in Software Engineering from <a href="https://www.bit.edu.cn" class="uline">BIT</a> (2015-2019).   
-      </p>
+  <p>
+    I am a fourth-year Ph.D. student at Beijing Institute of Technology, advised by <a href="https://shuangli.xyz"
+      class="uline">Prof. Shuang Li</a> and Prof. Chi Harold Liu. I received my Bachelor's degree in Software
+    Engineering from <a href="https://www.bit.edu.cn" class="uline">BIT</a> (2015-2019).
+  </p>
 
-      <p>
-        My research interests are in transfer learning and data-efficient learning (particularly domain adaptation, active learning) and self-supervised learning across visual tasks and domains. 
-        <!-- Apart from work, I enjoy running, basketball, badminton, music. -->
-      </p>
+  <p>
+    My research interests are in transfer learning and data-efficient learning (particularly domain adaptation, active
+    learning) and self-supervised learning across visual tasks and domains.
+    <!-- Apart from work, I enjoy running, basketball, badminton, music. -->
+  </p>
 
-        <p>
-          <b>Contact</b>: I'm always happy to discuss or collaborate! Feel free to drop me an <a href="mailto:binhuixie@bit.edu.cn" class="uline">email</a> if you're interested.
-        </p>
-        <br/>
+  <p>
+    <b>Contact</b>: I'm always happy to discuss or collaborate! Feel free to drop me an <a
+      href="mailto:binhuixie@bit.edu.cn" class="uline">email</a> if you're interested.
+  </p>
+  <br />
 
-    <!-- <div class="container">
+  <!-- <div class="container">
     <div class="row" style="text-align:center;">
       <div class="col-4">
         <div class="row">
@@ -102,278 +107,327 @@ tags: about
       </div>
     </div>
   </div>-->
-</div> 
+</div>
 
 <hr />
 <div class="news">
-    <h2>News</h2>
-    <br />
-    <ul>
-      
-      <!-- <li>
+  <h2>News</h2>
+  <br />
+  <ul>
+
+    <!-- <li>
         <p>[Nov 2022] One first-authored <a href="https://arxiv.org/abs/2204.08808" class="uline">SePiCo</a> for domain adaptive semantic segmentation was accepted to <font color="red">T-PAMI</font> (IF: 24.31)!</p>
       </li> -->
 
-      <li>
-        <p>[Nov 2022] One co-authored <a href="https://arxiv.org/abs/2211.12256" class="uline">paper</a> for semantic segmentation in adverse conditions was accepted to AAAI 2023!</p>
-      </li>
+    <li>
+      <p>[Nov 2022] One co-authored <a href="https://arxiv.org/abs/2211.12256" class="uline">paper</a> for semantic
+        segmentation in adverse conditions was accepted to AAAI 2023!</p>
+    </li>
 
-      <li>
-        <p>[Nov 2022] <a href='https://arxiv.org/abs/2211.07636' class='uline'>EVA</a> Unit-01 Launched!</p>
-      </li>
+    <li>
+      <p>[Nov 2022] <a href='https://arxiv.org/abs/2211.07636' class='uline'>EVA</a> Unit-01 Launched!</p>
+    </li>
 
-      <li>
-        <p>[Jun 2022] One first-authored <a href="https://ieeexplore.ieee.org/document/9803869" class="uline">paper</a> was accepted to TKDE!</p>
-      </li>
+    <li>
+      <p>[Jun 2022] One first-authored <a href="https://ieeexplore.ieee.org/document/9803869" class="uline">paper</a>
+        was accepted to TKDE!</p>
+    </li>
 
-      <li>
-          <p>[Mar 2022] One first-authored <a href="https://arxiv.org/abs/2111.12940" class="uline"><font color="red">ORAL paper</font></a> for data-efficient semantic segmentation was accepted to CVPR 2022!</p>
-      </li>
+    <li>
+      <p>[Mar 2022] One first-authored <a href="https://arxiv.org/abs/2111.12940" class="uline">
+          <font color="red">ORAL paper</font>
+        </a> for data-efficient semantic segmentation was accepted to CVPR 2022!</p>
+    </li>
 
-      <li>
-          <p>[Dec 2021] One first-authored <a href='https://arxiv.org/abs/2112.01406' class='uline'>paper</a> for active domain adaptation was accepted to AAAI 2022!</p>
-      </li>
+    <li>
+      <p>[Dec 2021] One first-authored <a href='https://arxiv.org/abs/2112.01406' class='uline'>paper</a> for active
+        domain adaptation was accepted to AAAI 2022!</p>
+    </li>
 
-        <li>
-            <p>[Feb 2021] One co-authored <a href='https://arxiv.org/abs/2103.12339' class='uline'>paper</a> for domain adaptation was accepted to <font color="red">T-PAMI</font> (IF: 24.31)!</p>
-        </li>
-    </ul>
-    <a id="readMore" class="uline" href="#" onclick="readMore();return false;">
-        <div style='text-align: center;'>
-            <h4>Read More</h4>
-        </div>
-    </a>
-    <span id="more">
-      <ul>
-        <li>
-          <p>[Apr 2022] One co-authored <a href='https://ieeexplore.ieee.org/document/9756672' class='uline'>paper</a> for partial domain adaptation was accepted to T-CYB!</p>
-        </li>
-
-        <li>
-          <p>[Dec 2020] One co-authored <a href='https://arxiv.org/abs/2012.06995' class='uline'>paper</a> for bi-classifier domain adaptation was accepted to AAAI 2021!</p>
-        </li>
-
-        <li>
-          <p>[Jul 2020] One co-authored <a href='https://arxiv.org/abs/2008.01677' class='uline'>paper</a> for heterogeneous domain adaptation was accepted to ACM MM 2020!</p>
-        </li>
-
-        <li>
-          <p>[Dec 2019] One co-authored <a href='https://arxiv.org/abs/2005.06717' class='uline'>paper</a> for domain adaptation was accepted to AAAI 2020!</p>
-        </li>
-
-        <li>
-          <p>[Jul 2019] My starting <a href='https://dl.acm.org/doi/abs/10.1145/3343031.3351070' class='uline'>research journey</a> was accepted to ACM MM 2019!</p>
-        </li>
-    </span>
+    <li>
+      <p>[Feb 2021] One co-authored <a href='https://arxiv.org/abs/2103.12339' class='uline'>paper</a> for domain
+        adaptation was accepted to <font color="red">T-PAMI</font> (IF: 24.31)!</p>
+    </li>
   </ul>
-    <a id="readLess" class="uline" href="#" onclick="readLess();return false;">
-        <div style='text-align: center;'>
-            <h4>Read Less</h4>
-        </div>
-    </a>
+  <a id="readMore" class="uline" href="#" onclick="readMore();return false;">
+    <div style='text-align: center;'>
+      <h4>Read More</h4>
+    </div>
+  </a>
+  <span id="more">
+    <ul>
+      <li>
+        <p>[Apr 2022] One co-authored <a href='https://ieeexplore.ieee.org/document/9756672' class='uline'>paper</a> for
+          partial domain adaptation was accepted to T-CYB!</p>
+      </li>
+
+      <li>
+        <p>[Dec 2020] One co-authored <a href='https://arxiv.org/abs/2012.06995' class='uline'>paper</a> for
+          bi-classifier domain adaptation was accepted to AAAI 2021!</p>
+      </li>
+
+      <li>
+        <p>[Jul 2020] One co-authored <a href='https://arxiv.org/abs/2008.01677' class='uline'>paper</a> for
+          heterogeneous domain adaptation was accepted to ACM MM 2020!</p>
+      </li>
+
+      <li>
+        <p>[Dec 2019] One co-authored <a href='https://arxiv.org/abs/2005.06717' class='uline'>paper</a> for domain
+          adaptation was accepted to AAAI 2020!</p>
+      </li>
+
+      <li>
+        <p>[Jul 2019] My starting <a href='https://dl.acm.org/doi/abs/10.1145/3343031.3351070' class='uline'>research
+            journey</a> was accepted to ACM MM 2019!</p>
+      </li>
+  </span>
+  </ul>
+  <a id="readLess" class="uline" href="#" onclick="readLess();return false;">
+    <div style='text-align: center;'>
+      <h4>Read Less</h4>
+    </div>
+  </a>
 </div>
 
 <hr />
 
 <div id="research">
-    <h2><a name="research">Recent Publications & Technical Reports</a></h2>
-    <br />
-    <table width="100%" align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-        <tbody>
+  <h2><a name="research">Recent Publications & Technical Reports</a></h2>
+  <br />
+  <table width="100%" align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+    <tbody>
 
-          
-          <!-- ArXiv SePiCO -->
-          <tr>
-            <td valign="middle" width="35%">
-                <div class="one" style="text-align:center;">
-                    <img src="images/SePiCo.png" style="max-height: 300px;">
-                </div>
-            </td>
-            <td valign="middle" width="65%">
-                <h5>
-                  SePiCo: Semantic-Guided Pixel Contrast for Domain Adaptive Semantic Segmentation
-                </h5>
-                <p>
-                    <a href="https://arxiv.org/abs/2204.08808" class="uline-special"><span style="color:red">arXiv preprint</span></a>
-                </p>
-                <p>
-                    <b>Binhui Xie</b>, Shuang Li, Mingjia Li, Chi Harold Liu, Gao Huang, Guoren Wang
-                </p>
-                <p>
-                  A novel one-stage adaptation framework that highlights the semantic concepts of individual pixel to promote learning of class-discriminative and class-balanced pixel embedding space across domains.
-                </p>
-                <a href="https://arxiv.org/abs/2204.08808" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
-                <a href="https://github.com/BIT-DA/SePiCo" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
-            </td>
-          </tr>
 
-          <!-- AAAI VBLC -->
-        <tr>
-          <td valign="middle" width="35%">
-              <div class="one" style="text-align:center;">
-                  <img src="images/aaai2023_VBLLC.png" style="max-height: 300px;">
-              </div>
-          </td>
-          <td valign="middle" width="65%">
-              <h5>
-                VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions
-              </h5>
-              <p>
-                  <a href="https://aaai.org/Conferences/AAAI-23/" class="uline-special"><span style="color:red">AAAI 2023</span></a>
-              </p>
-              <p>
-                  Mingjia Li*, <b>Binhui Xie*</b>, Shuang Li, Chi Harold Liu, Xinjing Cheng
-              </p>
-              <p>
-                VBLC tackles the problem of domain adaptive semantic segmentation under adverse conditions, getting rid of reference images.
-              </p>
-              <a href="https://arxiv.org/abs/2211.12256" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
-              <a href="https://github.com/BIT-DA/VBLC" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
-              <!-- <a href="https://www.bilibili.com/video/BV1qa411h7Xm?share_source=copy_web" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
+      <!-- ArXiv SePiCO -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/SePiCo.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            SePiCo: Semantic-Guided Pixel Contrast for Domain Adaptive Semantic Segmentation
+          </h5>
+          <p>
+            <a href="https://arxiv.org/abs/2204.08808" class="uline-special"><span style="color:red">arXiv
+                preprint</span></a>
+          </p>
+          <p>
+            <b>Binhui Xie</b>, Shuang Li, Mingjia Li, Chi Harold Liu, Gao Huang, Guoren Wang
+          </p>
+          <p>
+            A novel one-stage adaptation framework that highlights the semantic concepts of individual pixel to promote
+            learning of class-discriminative and class-balanced pixel embedding space across domains.
+          </p>
+          <a href="https://arxiv.org/abs/2204.08808" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/SePiCo" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+        </td>
+      </tr>
+
+      <!-- AAAI VBLC -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/aaai2023_VBLLC.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under
+            Adverse Conditions
+          </h5>
+          <p>
+            <a href="https://aaai.org/Conferences/AAAI-23/" class="uline-special"><span style="color:red">AAAI
+                2023</span></a>
+          </p>
+          <p>
+            Mingjia Li*, <b>Binhui Xie*</b>, Shuang Li, Chi Harold Liu, Xinjing Cheng
+          </p>
+          <p>
+            VBLC tackles the problem of domain adaptive semantic segmentation under adverse conditions, getting rid of
+            reference images.
+          </p>
+          <a href="https://arxiv.org/abs/2211.12256" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/VBLC" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+          <!-- <a href="https://www.bilibili.com/video/BV1qa411h7Xm?share_source=copy_web" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
               <a href="https://www.dropbox.com/s/8ozwc8uw1q1tqlf/eada_slides.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a>
               <a href="https://www.dropbox.com/s/xdtcd3iifb7xd06/eada_poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a> -->
-          </td>
+        </td>
       </tr>
 
 
-          <!-- CVPR RIPU -->
-          <tr>
-              <td valign="middle" width="35%">
-                  <div class="one" style="text-align:center;">
-                      <img src="images/cvpr2022_RIPU.png" style="max-height: 300px;">
-                  </div>
-              </td>
-              <td valign="middle" width="65%">
-                  <h5>
-                      Towards Fewer Annotations: Active Learning via Region Impurity and Prediction Uncertainty for Domain Adaptive Semantic Segmentation
-                  </h5>
-                  <p>
-                      <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Xie_Towards_Fewer_Annotations_Active_Learning_via_Region_Impurity_and_Prediction_CVPR_2022_paper.html" class="uline-special"><span style="color:red">CVPR 2022 (Oral)</span></a>
-                  </p>
-                  <p>
-                      <b>Binhui Xie</b>, Longhui Yuan, Shuang Li, Chi Harold Liu, Xinjing Cheng
-                  </p>
-                  <p>
-                      A region-based acquisition strategy for DA Segmentation queries image regions that are both diverse in spatial adjacency and uncertain in prediction output.
-                  </p>
-                  <a href="https://arxiv.org/abs/2111.12940" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
-                  <a href="https://github.com/BIT-DA/RIPU" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
-                  <a href="https://www.bilibili.com/video/BV1oS4y1e7J5?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=2536293932098e7a347341a231b3fb8b" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
-                  <a href="https://www.dropbox.com/s/a8ty5l2sut89b6l/5%20min_pre.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a>
-                  <a href="https://www.dropbox.com/s/mm14k36ydirk2w8/cvpr22_poster_2x1_in-person.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
-              </td>
-          </tr>
+      <!-- CVPR RIPU -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/cvpr2022_RIPU.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Towards Fewer Annotations: Active Learning via Region Impurity and Prediction Uncertainty for Domain
+            Adaptive Semantic Segmentation
+          </h5>
+          <p>
+            <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Xie_Towards_Fewer_Annotations_Active_Learning_via_Region_Impurity_and_Prediction_CVPR_2022_paper.html"
+              class="uline-special"><span style="color:red">CVPR 2022 (Oral)</span></a>
+          </p>
+          <p>
+            <b>Binhui Xie</b>, Longhui Yuan, Shuang Li, Chi Harold Liu, Xinjing Cheng
+          </p>
+          <p>
+            A region-based acquisition strategy for DA Segmentation queries image regions that are both diverse in
+            spatial adjacency and uncertain in prediction output.
+          </p>
+          <a href="https://arxiv.org/abs/2111.12940" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/RIPU" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+          <a href="https://www.bilibili.com/video/BV1oS4y1e7J5?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=2536293932098e7a347341a231b3fb8b"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
+          <a href="https://www.dropbox.com/s/a8ty5l2sut89b6l/5%20min_pre.pdf?dl=0"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a>
+          <a href="https://www.dropbox.com/s/mm14k36ydirk2w8/cvpr22_poster_2x1_in-person.pdf?dl=0"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
+        </td>
+      </tr>
 
-          <!-- AAAI EADA -->
-          <tr>
-              <td valign="middle" width="35%">
-                  <div class="one" style="text-align:center;">
-                      <img src="images/aaai2022_EADA.png" style="max-height: 300px;">
-                  </div>
-              </td>
-              <td valign="middle" width="65%">
-                  <h5>
-                      Active Learning for Domain Adaptation: An Energy-based Approach
-                  </h5>
-                  <p>
-                      <a href="https://aaai.org/Conferences/AAAI-22/" class="uline-special"><span style="color:red">AAAI 2022</span></a>
-                  </p>
-                  <p>
-                      <b>Binhui Xie</b>, Longhui Yuan, Shuang Li, Chi Harold Liu, Xinjing Cheng, Guoren Wang
-                  </p>
-                  <p>
-                      A new perspective to select a highly informative subset of unlabeled target data under domain shift via exploiting free energy biases across domains.
-                  </p>
-                  <a href="https://arxiv.org/abs/2112.01406" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
-                  <a href="https://github.com/BIT-DA/EADA" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
-                  <a href="https://www.bilibili.com/video/BV1qa411h7Xm?share_source=copy_web" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
-                  <a href="https://www.dropbox.com/s/8ozwc8uw1q1tqlf/eada_slides.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a>
-                  <a href="https://www.dropbox.com/s/xdtcd3iifb7xd06/eada_poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
-              </td>
-          </tr>
-          
-          <!-- TPAMI GDCAN -->
-          <tr>
-            <td valign="middle" width="35%">
-                <div class="one" style="text-align:center;">
-                    <img src="images/tpami_GDCAN.png" style="max-height: 300px;">
-                </div>
-            </td>
-            <td valign="middle" width="65%">
-                <h5>
-                    Generalized Domain Conditioned Adaptation Network
-                </h5>
-                <p>
-                    <a href="https://ieeexplore.ieee.org/abstract/document/9366353/" class="uline-special"><span style="color:red">T-PAMI (IF: 24.31)</span></a>
-                </p>
-                <p>
-                    Shuang Li, <b>Binhui Xie</b>, Qiuxia Lin, Chi Harold Liu, Gao Huang, Guoren Wang
-                </p>
-                <p>
-                    We develop GDCAN to automatically determine whether domain channel activations should be separately modeled in each attention module for domain adaptaion problem.
-                </p>
-                <a href="https://arxiv.org/abs/2103.12339" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
-                <a href="https://github.com/BIT-DA/GDCAN" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
-                <a href="https://www.dropbox.com/s/9h6cbyl3x8lz7bw/gdcan_poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
-            </td>
-        </tr>
+      <!-- AAAI EADA -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/aaai2022_EADA.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Active Learning for Domain Adaptation: An Energy-based Approach
+          </h5>
+          <p>
+            <a href="https://aaai.org/Conferences/AAAI-22/" class="uline-special"><span style="color:red">AAAI
+                2022</span></a>
+          </p>
+          <p>
+            <b>Binhui Xie</b>, Longhui Yuan, Shuang Li, Chi Harold Liu, Xinjing Cheng, Guoren Wang
+          </p>
+          <p>
+            A new perspective to select a highly informative subset of unlabeled target data under domain shift via
+            exploiting free energy biases across domains.
+          </p>
+          <a href="https://arxiv.org/abs/2112.01406" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/EADA" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+          <a href="https://www.bilibili.com/video/BV1qa411h7Xm?share_source=copy_web"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
+          <a href="https://www.dropbox.com/s/8ozwc8uw1q1tqlf/eada_slides.pdf?dl=0"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a>
+          <a href="https://www.dropbox.com/s/xdtcd3iifb7xd06/eada_poster.pdf?dl=0"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
+        </td>
+      </tr>
 
-          <!-- TKDE CAF -->
-          <tr>
-            <td valign="middle" width="35%">
-                <div class="one" style="text-align:center;">
-                    <img src="images/tkde_CAF.png" style="max-height: 300px;">
-                </div>
-            </td>
-            <td valign="middle" width="65%">
-                <h5>
-                  A Collaborative Alignment Framework of Transferable Knowledge Extraction for Unsupervised Domain Adaptation
-                </h5>
-                <p>
-                    <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69" class="uline-special"><span style="color:red">TKDE</span></a>
-                </p>
-                <p>
-                    <b>Binhui Xie</b>, Shuang Li, Fangrui Lv, Chi Harold Liu, Guoren Wang, Dapeng Wu
-                </p>
-                <p>
-                    We introduce a collaborative alignment framework that integrates global structure information and local semantic consistency into a unified deep model.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/9803869" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
-                <a href="https://github.com/BIT-DA/CAF" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
-            </td>
-        </tr>
-           
+      <!-- TPAMI GDCAN -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/tpami_GDCAN.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Generalized Domain Conditioned Adaptation Network
+          </h5>
+          <p>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9366353/" class="uline-special"><span
+                style="color:red">T-PAMI (IF: 24.31)</span></a>
+          </p>
+          <p>
+            Shuang Li, <b>Binhui Xie</b>, Qiuxia Lin, Chi Harold Liu, Gao Huang, Guoren Wang
+          </p>
+          <p>
+            We develop GDCAN to automatically determine whether domain channel activations should be separately modeled
+            in each attention module for domain adaptaion problem.
+          </p>
+          <a href="https://arxiv.org/abs/2103.12339" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/GDCAN" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+          <a href="https://www.dropbox.com/s/9h6cbyl3x8lz7bw/gdcan_poster.pdf?dl=0"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
+        </td>
+      </tr>
 
-           <!-- MM SSAN -->
-          <tr>
-              <td valign="middle" width="35%">
-                  <div class="one" style="text-align:center;">
-                      <img src="images/mm2020_SSAN.png" style="max-height: 300px;">
-                  </div>
-              </td>
-              <td valign="middle" width="65%">
-                  <h5>
-                      Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation
-                  </h5>
-                  <p>
-                      <a href="https://2020.acmmm.org" class="uline-special"><span style="color:red">MM 2020</span></a>
-                  </p>
-                  <p>
-                      Shuang Li, <b>Binhui Xie</b>, Jiashu Wu, Ying Zhao, Chi Harold Liu, Zhengming Ding
-                  </p>
-                  <p>
-                      A HDA method simultaneously exploits correlations among categories and aligns the centroids for each category across domains.
-                  </p>
-                  <a href="https://arxiv.org/abs/2008.01677" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
-                  <a href="https://github.com/BIT-DA/SSAN" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
-                  <a href="https://www.dropbox.com/s/k7lu7zvkfzlv2nj/ssan_slides.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a>
-                  <a href="https://www.dropbox.com/s/jjy5itt5niqp8b0/ssan_poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
-              </td>
-          </tr>
+      <!-- TKDE CAF -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/tkde_CAF.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            A Collaborative Alignment Framework of Transferable Knowledge Extraction for Unsupervised Domain Adaptation
+          </h5>
+          <p>
+            <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69" class="uline-special"><span
+                style="color:red">TKDE</span></a>
+          </p>
+          <p>
+            <b>Binhui Xie</b>, Shuang Li, Fangrui Lv, Chi Harold Liu, Guoren Wang, Dapeng Wu
+          </p>
+          <p>
+            We introduce a collaborative alignment framework that integrates global structure information and local
+            semantic consistency into a unified deep model.
+          </p>
+          <a href="https://ieeexplore.ieee.org/document/9803869" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/CAF" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+        </td>
+      </tr>
 
 
-           <!-- AAAI BCDM -->
-          <!-- <tr>
+      <!-- MM SSAN -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/mm2020_SSAN.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation
+          </h5>
+          <p>
+            <a href="https://2020.acmmm.org" class="uline-special"><span style="color:red">MM 2020</span></a>
+          </p>
+          <p>
+            Shuang Li, <b>Binhui Xie</b>, Jiashu Wu, Ying Zhao, Chi Harold Liu, Zhengming Ding
+          </p>
+          <p>
+            A HDA method simultaneously exploits correlations among categories and aligns the centroids for each
+            category across domains.
+          </p>
+          <a href="https://arxiv.org/abs/2008.01677" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/SSAN" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+          <a href="https://www.dropbox.com/s/k7lu7zvkfzlv2nj/ssan_slides.pdf?dl=0"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a>
+          <a href="https://www.dropbox.com/s/jjy5itt5niqp8b0/ssan_poster.pdf?dl=0"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
+        </td>
+      </tr>
+
+
+      <!-- AAAI BCDM -->
+      <!-- <tr>
               <td valign="middle" width="35%">
                   <div class="one" style="text-align:center;">
                       <img src="images/aaai2021_BCDM.png" style="max-height: 300px;">
@@ -398,8 +452,8 @@ tags: about
           </tr> -->
 
 
-           <!-- MM JADA -->
-          <!-- <tr>
+      <!-- MM JADA -->
+      <tr>
               <td valign="middle" width="35%">
                   <div class="one" style="text-align:center;">
                       <img src="images/mm2019_JADA.png" style="max-height: 300px;">
@@ -422,11 +476,11 @@ tags: about
                   <a href="https://github.com/BIT-DA/JADA" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
                   <a href="https://www.dropbox.com/s/t6kxl5se1t7rla7/jada_poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
               </td>
-          </tr> -->
+          </tr>
 
 
-          <!-- TCYB CSDN -->
-          <!-- <tr>
+      <!-- TCYB CSDN -->
+      <tr>
             <td valign="middle" width="35%">
                 <div class="one" style="text-align:center;">
                     <img src="images/tcyb_CSDN.png" style="max-height: 300px;">
@@ -446,12 +500,13 @@ tags: about
                     CSDN, which aims to solve PDA problem, identifies the most relevant source classes and critical target samples, such that more precise cross-domain alignment in the shared label space could be enforced by co-training two diverse classifiers. 
                 </p>
                 <a href="https://ieeexplore.ieee.org/document/9756672" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Paper</a>
+                <a href="https://github.com/BIT-DA/CSDN" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
             </td>
-        </tr> -->
+        </tr>
 
 
-        <!-- AAAI DCAN -->
-        <!-- <tr>
+      <!-- AAAI DCAN -->
+      <!-- <tr>
             <td valign="middle" width="35%">
                 <div class="one" style="text-align:center;">
                     <div class="two" id="jump_image" style="opacity: 0;"></div> 
@@ -477,8 +532,8 @@ tags: about
         </tr> -->
 
 
-        <!-- TNNLS DTLC -->
-        <!-- <tr>
+      <!-- TNNLS DTLC -->
+      <!-- <tr>
           <td valign="middle" width="35%">
               <div class="one" style="text-align:center;">
                   <img src="images/tnnls_DTLC.png" style="max-height: 300px;">
@@ -501,10 +556,10 @@ tags: about
               <a href="https://github.com/hnjzlishuang/DTLC" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
           </td>
       </tr> -->
-        
 
-        </tbody>
-    </table>
+
+    </tbody>
+  </table>
 </div>
 
 <hr>
@@ -515,29 +570,35 @@ tags: about
   <ul>
     <li>
       <p>
-        2022.6, Synced (<a href="https://www.bilibili.com/video/BV19a411p7tg/?spm_id_from=333.999.0.0" class="uline">online</a>), Towards Fewer Annotations: Active Learning for Adaptive Semantic Segmentation.
+        2022.6, Synced (<a href="https://www.bilibili.com/video/BV19a411p7tg/?spm_id_from=333.999.0.0"
+          class="uline">online</a>), Towards Fewer Annotations: Active Learning for Adaptive Semantic Segmentation.
       </p>
     </li>
     <li>
       <p>
-        2022.6, ReadPaper (<a href="https://www.bilibili.com/video/BV1oS4y1e7J5/?spm_id_from=333.999.0.0&vd_source=2536293932098e7a347341a231b3fb8b" class="uline">online</a>), Towards Fewer Annotations: Active Learning for Adaptive Semantic Segmentation.
+        2022.6, ReadPaper (<a
+          href="https://www.bilibili.com/video/BV1oS4y1e7J5/?spm_id_from=333.999.0.0&vd_source=2536293932098e7a347341a231b3fb8b"
+          class="uline">online</a>), Towards Fewer Annotations: Active Learning for Adaptive Semantic Segmentation.
       </p>
     </li>
     <li>
       <p>
-        2022.5, Zhidx Course (<a href="https://course.zhidx.com/c/Njg5MGIyMDlkYjhkZmVhMmI5ZTM=" class="uline">onine</a>), Active Learning under Distribution Shift.
+        2022.5, Zhidx Course (<a href="https://course.zhidx.com/c/Njg5MGIyMDlkYjhkZmVhMmI5ZTM="
+          class="uline">onine</a>), Active Learning under Distribution Shift.
       </p>
     </li>
     <li>
-        <p>
-          2022.3, AI Drive (<a href="https://www.bilibili.com/video/BV1qa411h7Xm/?spm_id_from=333.999.0.0&vd_source=2536293932098e7a347341a231b3fb8b" class="uline">online</a>), Energy-based Active Domain Adaptation.
-        </p>
-      </li>
-      <li>
-          <p>
-            2021.10, VALSE (Hangzhou), Generalized Domain Conditioned Adaptation Network.
-          </p>
-      </li>
+      <p>
+        2022.3, AI Drive (<a
+          href="https://www.bilibili.com/video/BV1qa411h7Xm/?spm_id_from=333.999.0.0&vd_source=2536293932098e7a347341a231b3fb8b"
+          class="uline">online</a>), Energy-based Active Domain Adaptation.
+      </p>
+    </li>
+    <li>
+      <p>
+        2021.10, VALSE (Hangzhou), Generalized Domain Conditioned Adaptation Network.
+      </p>
+    </li>
   </ul>
 
 </div>
@@ -551,9 +612,11 @@ tags: about
     Organizer of Workshop: VALSE 2022 (Student Workshop).
   </p>
   <p>
-    Reviewer for CVPR'23, ICLR'23, AAAI'23, ECCV'22, CVPR'22, AAAI'22, ICCV'21, CVPR'21, AAAI'21 etc.
+    Reviewer for CVPR'23, ICLR'23, AAAI'23, ECCV'22, CVPR'22, AAAI'22, ICCV'21, CVPR'21, AAAI'21, etc.
   </p>
-  
+  <p>
+    Reviewer for TPAMI, TNNLS, TMM, etc.
+  </p>
 </div>
 
 
@@ -562,9 +625,9 @@ tags: about
   <h2>Teaching Assistant</h2>
   <br />
   <p>
-    Introduction to Machine Learning, since 2021, Instructor: <a href="https://shuangli.xyz" class="uline">Prof. Li</a> 
+    Introduction to Machine Learning, since 2021, Instructor: <a href="https://shuangli.xyz" class="uline">Prof. Li</a>
   </p>
-  
+
 </div>
 
 
@@ -596,15 +659,15 @@ tags: about
   <br />
   <ul>
     <li>
-        <p>
-          Email: binhuixie@bit.edu.cn
-        </p>
-        <li>
-            <p>
-              Address: Room 1106, Central Teaching Building, Beijing Institute of Technology, Beijing
-            </p>
-        </li>
-</ul>
+      <p>
+        Email: binhuixie@bit.edu.cn
+      </p>
+    <li>
+      <p>
+        Address: Room 1106, Central Teaching Building, Beijing Institute of Technology, Beijing
+      </p>
+    </li>
+  </ul>
 
 </div>
 
@@ -634,4 +697,4 @@ tags: about
     </tbody>
   </table>
 </div> -->
-        <hr>
+<hr>
