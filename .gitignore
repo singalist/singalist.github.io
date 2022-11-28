@@ -1,1 +1,5 @@
-cv/cv/
+cv/*.out
+cv/*.log
+cv/*.aux
+cv/*.gz
+cv/*.tex
