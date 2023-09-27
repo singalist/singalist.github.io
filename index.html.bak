@@ -8,33 +8,29 @@ tags: about
     $('#readMore').hide();
     $('#more').show();
   }
-
   function readLess() {
     $('#readMore').show();
     $('#more').hide();
   }
 </script>
-
 <img src="{{ site.baseurl }}/images/me.jpg" alt="Binhui Xie" width="180"
   style="float: right; padding: 5px 0 0 15px; border-radius: 0%;" />
 
 <div class="bio" style="text-align:justify">
+  <!-- <hr/> -->
   <p>
-    I am a fourth-year Ph.D. student at Beijing Institute of Technology, advised by <a href="https://shuangli.xyz"
-      class="uline">Prof. Shuang Li</a> and Prof. Chi Harold Liu. I received my Bachelor's degree in Software
-    Engineering from <a href="https://www.bit.edu.cn" class="uline">BIT</a> (2015-2019).
+    I am a Ph.D. student at Beijing Institute of Technology, advised by <a href="https://shuangli.xyz" class="uline">Prof. Shuang Li</a> and Prof. Chi Liu. I received my Bachelor's degree in Software Engineering from <a href="https://www.bit.edu.cn" class="uline">BIT</a> (2015-2019).
   </p>
 
   <p>
-    My research interests are in foundation models, transfer learning, and data-efficient learning.
-    <!-- My research interests are in transfer learning and data-efficient learning (particularly domain adaptation, active learning) and self-supervised learning across visual tasks and domains. -->
-    <!-- Apart from work, I enjoy running, basketball, badminton, music. -->
+    My research interests are in transfer learning, data-efficient learning (particularly domain adaptation and active learning) and multimodal learning.
   </p>
 
   <p>
     <b>Contact</b>: I'm always happy to discuss or collaborate! Feel free to drop me an <a
       href="mailto:binhuixie@bit.edu.cn" class="uline">email</a> if you're interested.
   </p>
+
   <br />
 
   <!-- <div class="container">
@@ -55,13 +51,13 @@ tags: about
             <a href="https://www.adobe.com/in/"><img src="images/adobe.png" style="width:80%;max-height:150px"></a>
           </div>
           <div class="col-3">
-            <a href="https://vt.edu/"><img src="images/vt.jpg" style="width:80%;max-height:150px"></a>
-          </div>
-          <div class="col-3">
             <a href="http://curai.com/"><img src="images/curai.png" style="width:80%;max-height:150px"></a>
           </div>
           <div class="col-3">
             <a href="https://einstein.ai/"><img src="images/sf.png" style="width:80%;max-height:150px"></a>
+          </div>
+          <div class="col-3">
+            <a href="https://nv-tlabs.github.io/"><img src="images/nvidia.png" style="width:80%;max-height:150px"></a>
           </div>
         </div>
       </div>
@@ -71,12 +67,12 @@ tags: about
         <div class="row">
           <div class="col-6">
             <div style="padding:10px">
-              <h6>Fall 2011-Spring 2015</h6>
+              <h6>Fall '11-Spring '15</h6>
             </div>
           </div>
           <div class="col-6">
             <div style="padding:10px">
-              <h6>Fall 2017-current</h6>
+              <h6>Fall '17-current</h6>
             </div>
           </div>
         </div>
@@ -85,29 +81,31 @@ tags: about
         <div class="row" style="text-align:center;">
           <div class="col-3">
             <div style="padding:10px">
-              <h6>Summer 2014, Fall 2015- Summer 2016</h6>
+              <h6>Summer '14, Fall '15- Summer '16</h6>
             </div>
           </div>
           <div class="col-3">
             <div style="padding:10px">
-              <h6>Fall 2016-Spring 2017</h6>
+              <h6>Summer '18, '19</h6>
             </div>
           </div>
           <div class="col-3">
             <div style="padding:10px">
-              <h6>Summer 2018, 2019</h6>
+              <h6>Summer '21</h6>
             </div>
           </div>
           <div class="col-3">
             <div style="padding:10px">
-              <h6>Summer 2021</h6>
+              <h6>Summer '22</h6>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>-->
+  </div> -->
+  
 </div>
+
 
 <hr />
 <div class="news">
@@ -116,44 +114,57 @@ tags: about
   <ul>
 
     <li>
-      <p>[Feb 2023] Two co-authored papers (<a href="https://arxiv.org/abs/2211.07636" class="uline"> 
-        <font color="red">EVA</font></a>, <a href="binhuixie.github.io" class="uline"> 
-          <font color="red">RoTTA</font></a>) are accepted by CVPR 2023!</p>
-    </li>
-    <li>
-        <p>[Jan 2023] One first-authored <a href="https://arxiv.org/abs/2204.08808" class="uline">SePiCo</a> for domain adaptive semantic segmentation is accepted by <font color="red">T-PAMI</font> (IF: 24.31)!</p>
-      </li>
-
-    <li>
-      <p>[Nov 2022] One co-authored <a href="https://arxiv.org/abs/2211.12256" class="uline"> 
-        <font color="red">ORAL paper</font></a> for semantic
-        segmentation in adverse conditions is accepted by AAAI 2023!</p>
+      <p>[Sep 2023] Our <a href="https://arxiv.org/abs/2204.08808" class="uline">Annotator</a> for label-efficient LiDAR segmentation is accepted by <font color="red">NeurIPS</font> 2023!</p>
     </li>
 
     <li>
+      <p>[Feb 2023] Two papers on representation learning (<a href="https://arxiv.org/abs/2211.07636" class="uline">EVA <font color="red">highlight</font></a>) and test-time adaptation (<a href="https://arxiv.org/abs/2303.13899" class="uline">RoTTA</a>) are accepted by CVPR 2023!</p>
+    </li>
+   
+    <li>
+        <p>[Jan 2023] Our <a href="https://arxiv.org/abs/2204.08808" class="uline">SePiCo</a> for domain adaptive semantic segmentation is accepted by <font color="red">T-PAMI</font> (IF: 23.6)!</p>
+    </li>
+
+    <li>
+      <p>[Nov 2022] Our <a href="https://arxiv.org/abs/2211.12256" class="uline"> VBLC </a> for semantic segmentation under adverse conditions is accepted by AAAI 2023 (<font color="red">ORAL</font>)!</p>
+    </li>
+
+    <!-- <li>
       <p>[Nov 2022] <a href='https://arxiv.org/abs/2211.07636' class='uline'>EVA</a> Unit-01 Launched!</p>
+    </li> -->
+
+    <li>
+      <p>[Jun 2022] Our <a href="https://ieeexplore.ieee.org/document/9803869" class="uline">CAF</a> for domain adaptation is accepted by TKDE!</p>
     </li>
 
     <li>
-      <p>[Jun 2022] One first-authored <a href="https://ieeexplore.ieee.org/document/9803869" class="uline">paper</a>
-        is accepted by TKDE!</p>
+      <p>[Apr 2022] Our <a href='https://ieeexplore.ieee.org/document/9756672' class='uline'>CSDN</a> for
+        partial domain adaptation is accepted by T-CYB!</p>
     </li>
 
     <li>
-      <p>[Mar 2022] One first-authored <a href="https://arxiv.org/abs/2111.12940" class="uline">
-          <font color="red">ORAL paper</font>
-        </a> for data-efficient semantic segmentation is accepted by CVPR 2022!</p>
+      <p>[Mar 2022] Our <a href="https://arxiv.org/abs/2111.12940" class="uline"> RIPU</a> for data-efficient semantic segmentation is accepted by CVPR 2022  (<font color="red">ORAL</font>)!</p>
     </li>
 
     <li>
-      <p>[Dec 2021] One first-authored <a href='https://arxiv.org/abs/2112.01406' class='uline'>paper</a> for active
-        domain adaptation is accepted by AAAI 2022!</p>
+      <p>[Dec 2021] Our <a href='https://arxiv.org/abs/2112.01406' class='uline'>EADA</a> for active domain adaptation is accepted by AAAI 2022!</p>
     </li>
 
     <li>
-      <p>[Feb 2021] One co-authored <a href='https://arxiv.org/abs/2103.12339' class='uline'>paper</a> for domain
-        adaptation is accepted by <font color="red">T-PAMI</font> (IF: 24.31)!</p>
+      <p>[Feb 2021] Our <a href='https://arxiv.org/abs/2103.12339' class='uline'>GDCAN</a> (Journal Version of <a href='https://arxiv.org/abs/2005.06717' class='uline'>DCAN</a>) is accepted by <font color="red">T-PAMI</font> (IF: 24.31)!</p>
     </li>
+
+
+    <li>
+      <p>[Dec 2020] Our <a href='https://arxiv.org/abs/2012.06995' class='uline'>BCDM</a> for
+        bi-classifier adversarial adaptation is accepted by AAAI 2021!</p>
+    </li>
+
+    <li>
+      <p>[Jul 2020] Our <a href='https://arxiv.org/abs/2008.01677' class='uline'>SSAN</a> for
+        heterogeneous domain adaptation is accepted by ACM MM 2020!</p>
+    </li>
+
   </ul>
   <a id="readMore" class="uline" href="#" onclick="readMore();return false;">
     <div style='text-align: center;'>
@@ -162,29 +173,17 @@ tags: about
   </a>
   <span id="more">
     <ul>
+
       <li>
-        <p>[Apr 2022] One co-authored <a href='https://ieeexplore.ieee.org/document/9756672' class='uline'>paper</a> for
-          partial domain adaptation is accepted by T-CYB!</p>
+        <p> [Jan 2020] Our <a href="https://ieeexplore.ieee.org/document/8951259" class="uline">DTLC</a> for shallow domain adaptation is accepted by TNNLS! </p>
+    </li>
+
+      <li>
+        <p>[Dec 2019] Our <a href='https://arxiv.org/abs/2005.06717' class='uline'>DCAN</a> for domain adaptation is accepted by AAAI 2020!</p>
       </li>
 
       <li>
-        <p>[Dec 2020] One co-authored <a href='https://arxiv.org/abs/2012.06995' class='uline'>paper</a> for
-          bi-classifier domain adaptation is accepted by AAAI 2021!</p>
-      </li>
-
-      <li>
-        <p>[Jul 2020] One co-authored <a href='https://arxiv.org/abs/2008.01677' class='uline'>paper</a> for
-          heterogeneous domain adaptation is accepted by ACM MM 2020!</p>
-      </li>
-
-      <li>
-        <p>[Dec 2019] One co-authored <a href='https://arxiv.org/abs/2005.06717' class='uline'>paper</a> for domain
-          adaptation is accepted by AAAI 2020!</p>
-      </li>
-
-      <li>
-        <p>[Jul 2019] My starting <a href='https://dl.acm.org/doi/abs/10.1145/3343031.3351070' class='uline'>research
-            journey</a> is accepted by ACM MM 2019!</p>
+        <p>[Jul 2019] Our <a href='https://dl.acm.org/doi/abs/10.1145/3343031.3351070' class='uline'>JADA</a> (my starting research journey) is accepted by ACM MM 2019!</p>
       </li>
   </span>
   </ul>
@@ -197,12 +196,70 @@ tags: about
 
 <hr />
 
+<!-- <hr>
+<div class="Achievements">
+  <h1>Achievements</h1>
+  <ul>
+    <li>
+      <p>Among the top 30 percent highest scoring reviewers for NeurIPS 2018.</p>
+    </li>
+    <li>
+      <p>Winner of <a href="https://vthacks-iv.devpost.com/submissions" class="uline">VT Hacks 2017</a>, a <a href="https://mlh.io/" class="uline">Major League Hacking</a> event.</p>
+    </li>
+    <li>
+      <p>Awarded travel scholarship to represent CloudCV at Google Summer of Code Mentor Summit 2016, 2017.</p>
+    </li>
+    <li>
+      <p>Winner, Google Hackathon, <a href="https://bits-apogee.org/" class="uline">APOGEE</a> 2014 (BITS Pilani's annual technical symposium).</p>
+    </li>
+    <li>
+      <p>Second Place, Project Presentation (Adaptive Technology and Design Appliances Tracks), <a href="https://bits-apogee.org/" class="uline">APOGEE</a> 2013.</p>
+    </li>
+    <li>
+    <p>Top 0.2%, <a href="http://bitsadmission.com/bitsatmain.aspx" class="uline">BITSAT</a> 2011 (from >120k students).</p>
+    </li>
+    <li>
+      <p>Top 0.1%, <a href="http://www.cisce.org/examination.aspx" class="uline">ICSE</a> 2009 (from >150k students), awarded <a href="http://www.amul.com/m/amul-vidya-shree-award-std-10" class="uline">Amul Vidya Shree.</a></p>
+    </li>
+  </ul>
+</div> -->
+
+
 <div id="research">
   <h2><a name="research">Recent Publications & Technical Reports</a></h2>
   <br />
   <table width="100%" align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
     <tbody>
 
+       <!-- NeurIPS Annotator -->
+       <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/Annotator.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Annotator: A Generic Active Learning Baseline for LiDAR Semantic Segmentation
+          </h5>
+          <p>
+            <a href="https://nips.cc/" class="uline-special"><span
+              style="color:red">NeurIPS 2023</span></a>
+          </p>
+          <p>
+            <b>Binhui Xie</b>, Shuang Li, Qingju Guo, Chi Harold Liu, and Xinjing Cheng
+          </p>
+          <p>
+            We established a simple and general baseline for label-efficient LiDAR semantic segmentation.
+          </p>
+          <a href="https://binhuixie.github.io/" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Project Page (coming)</a>
+          <a href="https://binhuixie.github.io/" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper (coming)</a>
+          <a href="https://github.com/BIT-DA/" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code (coming)</a>
+        </td>
+      </tr>
 
       <!-- TPAMI SePiCO -->
       <tr>
@@ -235,101 +292,8 @@ tags: about
         </td>
       </tr>
 
-      <!-- CVPR EVA -->
-      <tr>
-        <td valign="middle" width="35%">
-          <div class="one" style="text-align:center;">
-            <img src="images/cvpr2023_eva.png" style="max-height: 300px;">
-          </div>
-        </td>
-        <td valign="middle" width="65%">
-          <h5>
-            EVA: Exploring the Limits of Masked Visual Representation Learning at Scale
-          </h5>
-          <p>
-            <a href="https://cvpr2023.thecvf.com" class="uline-special"><span style="color:red">CVPR 2023</span></a>
-          </p>
-          <p>
-            Yuxin Fang, Wen Wang, <b>Binhui Xie</b>, Quan Sun, Ledell Yu Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang, and Yue Cao
-          </p>
-          <p>
-            EVA is the first open-sourced billion-scale vision foundation model that achieves state-of-the-art performance on a broad range of downstream tasks.
-          </p>
-          <a href="https://arxiv.org/abs/2211.07636" class="btn btn-outline-primary btn-sm" role="button"
-            aria-pressed="true">Paper</a>
-          <a href="https://github.com/baaivision/EVA" class="btn btn-outline-primary btn-sm" role="button"
-            aria-pressed="true">Code</a>
-          <!-- <a href="https://www.bilibili.com/video/av692744964" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a> -->
-          <!-- <a href="https://www.dropbox.com/s/8ozwc8uw1q1tqlf/eada_slides.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a> -->
-          <!-- <a href="https://www.dropbox.com/s/pvb2701k2gr9cfb/aaai23poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a> -->
-        </td>
-      </tr>
-
-      <!-- CVPR RoTTA -->
-      <!-- <tr>
-        <td valign="middle" width="35%">
-          <div class="one" style="text-align:center;">
-            <img src="images/cvpr2023_rotta.png" style="max-height: 300px;">
-          </div>
-        </td>
-        <td valign="middle" width="65%">
-          <h5>
-            Robust Test-Time Adaptation in Dynamic Scenarios
-          </h5>
-          <p>
-            <a href="https://cvpr2023.thecvf.com" class="uline-special"><span style="color:red">CVPR 2023</span></a>
-          </p>
-          <p>
-            Longhui Yuan*, <b>Binhui Xie*</b>, and Shuang Li
-          </p>
-          <p>
-            RoTTA presents a new practical test-time adaptation setting where environments gradually change and the test data is sampled correlatively over time.
-          </p>
-          <a href="https://arxiv.org/abs/xxx" class="btn btn-outline-primary btn-sm" role="button"
-            aria-pressed="true">Paper</a>
-          <a href="https://github.com/BIT-DA/RoTTA" class="btn btn-outline-primary btn-sm" role="button"
-            aria-pressed="true">Code</a>
-        </td>
-      </tr> -->
-
-      <!-- AAAI VBLC -->
-      <tr>
-        <td valign="middle" width="35%">
-          <div class="one" style="text-align:center;">
-            <img src="images/aaai2023_VBLLC.png" style="max-height: 300px;">
-          </div>
-        </td>
-        <td valign="middle" width="65%">
-          <h5>
-            VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under
-            Adverse Conditions
-          </h5>
-          <p>
-            <a href="https://aaai.org/Conferences/AAAI-23/" class="uline-special"><span style="color:red">AAAI
-                2023 (Oral)</span></a>
-          </p>
-          <p>
-            Mingjia Li*, <b>Binhui Xie*</b>, Shuang Li, Chi Harold Liu, and Xinjing Cheng
-          </p>
-          <p>
-            VBLC tackles the problem of domain adaptive semantic segmentation under adverse conditions, getting rid of
-            reference images.
-          </p>
-          <a href="https://kiwixr.github.io/projects/vblc" class="btn btn-outline-primary btn-sm" role="button"
-          aria-pressed="true">Project Page</a>
-          <a href="https://arxiv.org/abs/2211.12256" class="btn btn-outline-primary btn-sm" role="button"
-            aria-pressed="true">Paper</a>
-          <a href="https://github.com/BIT-DA/VBLC" class="btn btn-outline-primary btn-sm" role="button"
-            aria-pressed="true">Code</a>
-          <a href="https://www.bilibili.com/video/av692744964" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
-            <!-- <a href="https://www.dropbox.com/s/8ozwc8uw1q1tqlf/eada_slides.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a> -->
-            <a href="https://www.dropbox.com/s/pvb2701k2gr9cfb/aaai23poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
-        </td>
-      </tr>
-
-
-      <!-- CVPR RIPU -->
-      <tr>
+       <!-- CVPR RIPU -->
+       <tr>
         <td valign="middle" width="35%">
           <div class="one" style="text-align:center;">
             <img src="images/cvpr2022_RIPU.png" style="max-height: 300px;">
@@ -430,6 +394,98 @@ tags: about
         </td>
       </tr>
 
+       <!-- CVPR RoTTA -->
+       <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/cvpr2023_rotta.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Robust Test-Time Adaptation in Dynamic Scenarios
+          </h5>
+          <p>
+            <a href="https://cvpr2023.thecvf.com" class="uline-special"><span style="color:red">CVPR 2023</span></a>
+          </p>
+          <p>
+            Longhui Yuan, <b>Binhui Xie</b> and Shuang Li
+          </p>
+          <p>
+            RoTTA presents a new practical test-time adaptation setting where environments gradually change and the test data is sampled correlatively over time.
+          </p>
+          <a href="https://arxiv.org/abs/2303.13899" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/RoTTA" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+            <a href="https://www.youtube.com/watch?v=dEhpVOM0I6Q"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
+        </td>
+      </tr>
+
+      <!-- CVPR EVA -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/cvpr2023_eva.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            EVA: Exploring the Limits of Masked Visual Representation Learning at Scale
+          </h5>
+          <p>
+            <a href="https://cvpr2023.thecvf.com" class="uline-special"><span style="color:red">CVPR 2023 (Highlights)</span></a>
+          </p>
+          <p>
+            Yuxin Fang, Wen Wang, <b>Binhui Xie</b>, Quan Sun, Ledell Yu Wu, Xinggang Wang, Tiejun Huang, Xinlong Wang, and Yue Cao
+          </p>
+          <p>
+            EVA is the first open-sourced billion-scale vision foundation model that achieves state-of-the-art performance on a broad range of downstream tasks.
+          </p>
+          <a href="https://arxiv.org/abs/2211.07636" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/baaivision/EVA" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+          <!-- <a href="https://www.bilibili.com/video/av692744964" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a> -->
+          <!-- <a href="https://www.dropbox.com/s/8ozwc8uw1q1tqlf/eada_slides.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a> -->
+          <!-- <a href="https://www.dropbox.com/s/pvb2701k2gr9cfb/aaai23poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a> -->
+        </td>
+      </tr>
+
+      <!-- AAAI VBLC -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/aaai2023_VBLLC.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under
+            Adverse Conditions
+          </h5>
+          <p>
+            <a href="https://aaai.org/Conferences/AAAI-23/" class="uline-special"><span style="color:red">AAAI
+                2023 (Oral)</span></a>
+          </p>
+          <p>
+            Mingjia Li*, <b>Binhui Xie*</b>, Shuang Li, Chi Harold Liu, and Xinjing Cheng
+          </p>
+          <p>
+            VBLC tackles the problem of domain adaptive semantic segmentation under adverse conditions, getting rid of
+            reference images.
+          </p>
+          <a href="https://arxiv.org/abs/2211.12256" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/VBLC" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+          <a href="https://www.bilibili.com/video/av692744964" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Video</a>
+            <!-- <a href="https://www.dropbox.com/s/8ozwc8uw1q1tqlf/eada_slides.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Slides</a> -->
+            <a href="https://www.dropbox.com/s/pvb2701k2gr9cfb/aaai23poster.pdf?dl=0" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Poster</a>
+        </td>
+      </tr>
+
       <!-- TKDE CAF -->
       <tr>
         <td valign="middle" width="35%">
@@ -458,7 +514,6 @@ tags: about
             aria-pressed="true">Code</a>
         </td>
       </tr>
-
 
       <!-- MM SSAN -->
       <tr>
@@ -623,13 +678,113 @@ tags: about
               <a href="https://github.com/hnjzlishuang/DTLC" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Code</a>
           </td>
       </tr> -->
-
-
+  
     </tbody>
   </table>
 </div>
 
 <hr>
+
+<!-- <div id="projects">
+  <h2>Projects</h2>
+  <table width="100%" align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+    <tbody>
+      <tr>
+        <td valign="top" width="50%">
+          <h5>
+            Fabrik: An Online Collaborative Neural Network Editor
+          </h5>
+
+          <p class="authors">
+            Utsav Garg, <b>Viraj Prabhu</b>, Deshraj Yadav, Ram Ramrakhya, Harsh Agrawal, Dhruv Batra
+          </p>
+          <p class="authors">Lead mentor on Fabrik, an open-source web platform to collaboratively build, visualize, and
+            design neural networks in the browser.</p>
+          <a href="https://arxiv.org/abs/1810.11649" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Report</a>
+          <a href="https://github.com/Cloud-CV/Fabrik" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+
+        </td>
+        <td width="50%">
+          <div class="one" style="text-align:center;">
+            <div class="two" id="jump_image" style="opacity: 0;"></div>
+            <img src="images/fabrik.png" style="max-height: 150px;width:100%">
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td valign="top" width="40%">
+          <h5>PyTorch implementation of <a href="https://arxiv.org/abs/1703.06585" class="uline">Learning Cooperative
+              Visual Dialog Agents with Deep Reinforcement Learning</a></h5>
+          <p class="authors">
+            Nirbhay Modhe, <b>Viraj Prabhu</b>, Michael Cogswell, Satwik Kottur, Abhishek Das, Stefan Lee, Devi Parikh,
+            Dhruv Batra
+          </p>
+          <a href="https://github.com/batra-mlp-lab/visdial-rl" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+
+        </td>
+        <td width="50%">
+          <div class="one" style="text-align:center;">
+            <div class="two" id="jump_image" style="opacity: 0;"></div>
+            <img src="images/visdial_rl.jpg" style="margin-top:30px;max-height: 200px;width:100%;">
+          </div>
+        </td>
+      </tr>
+      <td valign="top" width="75%">
+        <h5>Adobe Captivate Prime</h5>
+        <p class="authors">During my time as a software developer at Adobe (Aug '15-'16), I was responsible for the <a
+            href="http://www.adobe.com/products/captivateprime.html" class="uline">Captivate Prime</a> Android app
+          through two release cycles. I developed features for offline content play-back, syncing, and UI.
+        </p>
+      </td>
+      <td width="25%">
+        <div class="one" style="text-align:center;">
+          <div class="two" style="opacity: 0;"></div>
+          <img src="images/cp.jpeg" style="width:50%;">
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td valign="top" width="75%">
+          <h5>Automated camera calibration and boresighting</h5>
+          <p class="authors">Over a research internship at <a href="http://tonboimaging.com/" class="uline">Tonbo
+              Imaging</a> (Spring '15), I designed an algorithm for automated camera calibration and implemented a
+            boresighting algorithm for the company's video precision boresight tool.
+          </p>
+          </p>
+        </td>
+        <td width="25%">
+          <div class="one" style="text-align:center;">
+            <div class="two" style="opacity: 0;"></div>
+            <img src="images/tonbo.png" style="width:50%;">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" width="75%">
+          <h5>KeyframeCut</h5>
+          <p class="authors">Over an internship at Adobe, I co-developed KeyframeCut, a fast graphcut-based segmentation
+            algorithm for real-time background substitution in video. Transferred into Magic Green Screen, the marquee
+            feature of Adobe Presenter Video Express 11.</p>
+          <a href="https://www.youtube.com/watch?v=wM9mpFxaOpM" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Demo</a>
+          <a href="http://blogs.adobe.com/captivate/2016/03/adobe-presenter-video-express-the-end-of-green-screen.html"
+            class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">Blog</a>
+          </p>
+        </td>
+        <td width="25%">
+          <div class="one" style="text-align:center;">
+            <div class="two" style="opacity: 0;"></div>
+            <img src="images/mgs.png" style="width:75%;">
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div> -->
 
 <div id="talks">
   <h2>Invited Talks</h2>
@@ -679,10 +834,10 @@ tags: about
     Organizer of Workshop: VALSE 2022 (Student Workshop).
   </p>
   <p>
-    Reviewer for ICCV'23, CVPR'23, ICLR'23, AAAI'23, ECCV'22, CVPR'22, AAAI'22, ICCV'21, CVPR'21, AAAI'21, etc.
+    Conference Reviewer for ICLR'24, AAAI'24, NeurIPS'23, ICCV'23, CVPR'23, ICLR'23, AAAI'23, ECCV'22, CVPR'22, AAAI'22, ICCV'21, CVPR'21, AAAI'21, etc.
   </p>
   <p>
-    Reviewer for TPAMI, TNNLS, TMM, etc.
+    Journal Reviewer for TIP, TKDE, PR, TIV, etc.
   </p>
 </div>
 
@@ -692,7 +847,7 @@ tags: about
   <h2>Teaching Assistant</h2>
   <br />
   <p>
-    Introduction to Machine Learning, since 2021, Instructor: <a href="https://shuangli.xyz" class="uline">Prof. Li</a>
+    Machine Learning Essentials, Spring 2021 \& Spring 2022, Instructor: <a href="https://shuangli.xyz" class="uline">Prof. Li</a>
   </p>
 
 </div>
@@ -700,23 +855,27 @@ tags: about
 
 <hr>
 <div id="news">
-  <h2>Selected Honors and Awards</h2>
+  <h2>Honors and Awards</h2>
   <ul>
-    <!-- <li>
+    <li>
+      <p>
+        3rd place, VisDA-2022@NeurIPS, 2022.
+      </p>
+    <li>
+    <li>
+      <p>
+        Special Academic Scholarship, Beijing Institute of Technology, 2022.
+      </p>
+    <li>
       <p>
         CETC GUORUI Scholarship, 2021.
       </p>
-    </li> -->
+    </li>
     <li>
       <p>
-        Excellent Undergraduate in Beijing Institute of Technology, 2019.
+        Excellent Undergraduate & Graduation Thesis at Beijing Institute of Technology, 2019.
       </p>
     </li>
-    <!-- <li>
-      <p>
-        Second Class Scholarship, Beijing Institute of Technology, 2018.
-      </p>
-    </li> -->
   </ul>
 </div>
 
@@ -738,30 +897,4 @@ tags: about
 
 </div>
 
-
-
-
-<!-- <div id="projects">
-  <h2>Projects</h2>
-  <table width="100%" align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-    <tbody>
-      <tr>
-        <td valign="top" width="40%">
-          <h5>PyTorch implementation of <a href="https://arxiv.org/" class="uline"> Deep Reinforcement Learning</a></h5>
-          <p class="authors">
-            <b>Binhui Xie</b>, 
-          </p>
-          <a href="https://github.com/" class="btn btn-outline-primary btn-sm" role="button"
-            aria-pressed="true">Code</a>
-        </td>
-        <td width="50%">
-          <div class="one" style="text-align:center;">
-            <div class="two" id="jump_image" style="opacity: 0;"></div>
-            <img src="images/drl.jpg" style="margin-top:30px;max-height: 200px;width:100%;">
-          </div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div> -->
 <hr>
