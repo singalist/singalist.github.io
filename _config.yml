@@ -1,10 +1,10 @@
 # Site settings
-title:       Binhui Xie
-email:       binhuixie@bit.edu.cn
-author:      Binhui Xie
-description: "Binhui Xie's personal website."
+title:       Wenxuan Ma
+email:       wenxuanma@bit.edu.cn
+author:      Wenxuan Ma
+description: "Wenxuan Ma's personal website."
 baseurl:     ""
-url:         "http://binhuixie.github.io"
+url:         "http://singalist.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -42,10 +42,10 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: BinhuiXie
+github_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username: BennyXie12
+twitter_username: 
 skype_username:
 steam_nickname:
 google_plus_id:
