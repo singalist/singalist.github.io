@@ -19,11 +19,11 @@ tags: about
 <div class="bio" style="text-align:justify">
   <!-- <hr/> -->
   <p>
-    I am a third-year master's student at Beijing Institute of Technology, advised by <a href="https://shuangli.xyz" class="uline">Prof. Shuang Li</a>. I received my Bachelor's degree in Automation from <a href="https://www.bit.edu.cn" class="uline">BIT</a> (2015-2019).
+    I am a third-year master's student at <a href="https://www.bit.edu.cn" class="uline">Beijing Institute of Technology</a>, advised by <a href="https://shuangli.xyz" class="uline">Prof. Shuang Li</a>. I received my Bachelor's degree in Automation from Beijing Institute of Technology (2017-2021).
   </p>
 
   <p>
-    My research interests are in transfer learning, data-efficient learning and multimodal learning.
+    My research interests are in transfer learning (especially in domain adaptation), data-efficient learning and multimodal learning.
   </p>
 
   <p>
@@ -122,7 +122,7 @@ tags: about
     </li>
 
     <li>
-      <p>[July 2022] Our DOT for ViT-based unsupervised domain adaptation is accepted by <font color="red">MM</font> 2022!</p>
+      <p>[July 2022] Our DOT for ViT-based unsupervised domain adaptation is accepted by <font color="red">ACM MM</font> 2022!</p>
     </li>
 
     <li>
@@ -177,7 +177,7 @@ tags: about
         heterogeneous domain adaptation is accepted by ACM MM 2020!</p>
     </li> -->
 
-  </ul>
+  <!-- </ul>
   <a id="readMore" class="uline" href="#" onclick="readMore();return false;">
     <div style='text-align: center;'>
       <h4>Read More</h4>
@@ -203,7 +203,7 @@ tags: about
     <div style='text-align: center;'>
       <h4>Read Less</h4>
     </div>
-  </a>
+  </a> -->
 </div>
 
 <hr />
@@ -243,33 +243,93 @@ tags: about
   <table width="100%" align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
     <tbody>
 
-       <!-- NeurIPS Annotator -->
+       <!-- NeurIPS Language Semantic Graph -->
        <tr>
         <td valign="middle" width="35%">
           <div class="one" style="text-align:center;">
-            <img src="images/Annotator.png" style="max-height: 300px;">
+            <img src="images/nips23_lsg.png" style="max-height: 300px;">
           </div>
         </td>
         <td valign="middle" width="65%">
           <h5>
-            Annotator: A Generic Active Learning Baseline for LiDAR Semantic Segmentation
+            Language Semantic Graph Guided Data-Efficient Learning
           </h5>
           <p>
             <a href="https://nips.cc/" class="uline-special"><span
               style="color:red">NeurIPS 2023</span></a>
           </p>
           <p>
-            <b>Binhui Xie</b>, Shuang Li, Qingju Guo, Chi Harold Liu, and Xinjing Cheng
+            <b>Wenxuan Ma</b>, Shuang Li*, Lincan Cai, Jingxuan Kang
           </p>
           <p>
-            We established a simple and general baseline for label-efficient LiDAR semantic segmentation.
+            We leverage graph neural network to model language semantic space and benefit data-efficient training.
           </p>
-          <a href="https://binhuixie.github.io/" class="btn btn-outline-primary btn-sm" role="button"
+          <a href="https://singalist.github.io/" class="btn btn-outline-primary btn-sm" role="button"
             aria-pressed="true">Project Page (coming)</a>
-          <a href="https://binhuixie.github.io/" class="btn btn-outline-primary btn-sm" role="button"
+          <a href="https://singalist.github.io/" class="btn btn-outline-primary btn-sm" role="button"
             aria-pressed="true">Paper (coming)</a>
           <a href="https://github.com/BIT-DA/" class="btn btn-outline-primary btn-sm" role="button"
             aria-pressed="true">Code (coming)</a>
+        </td>
+      </tr>
+
+      <!-- ICCV BorLan -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/iccv23_borlan.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Borrowing Knowledge From Pre-trained Language Model: A New Data-Efficient Visual Learning Paradigm
+          </h5>
+          <p>
+            <a href="https://iccv2023.thecvf.com/" class="uline-special"><span
+              style="color:red">ICCV 2023</span></a>
+          </p>
+          <p>
+            <b>Wenxuan Ma</b>, Shuang Li*, Jinming Zhang, Chi Harold Liu, Jingxuan Kang, Yulin Wang, Gao Huang
+          </p>
+          <p>
+            We leverage pre-trained language model to capture semantic relations between visual categories and promote data-efficient training on vision models.
+          </p>
+          <!-- <a href="https://singalist.github.io/" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Project Page (coming)</a> -->
+          <a href="https://singalist.github.io/" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper (coming)</a>
+          <a href="https://github.com/BIT-DA/BorLan" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
+        </td>
+      </tr>
+
+      <!-- ACM MM DOT -->
+      <tr>
+        <td valign="middle" width="35%">
+          <div class="one" style="text-align:center;">
+            <img src="images/mm22_dot.png" style="max-height: 300px;">
+          </div>
+        </td>
+        <td valign="middle" width="65%">
+          <h5>
+            Making the Best of Both Worlds: A Domain-Oriented Transformer for Unsupervised Domain Adaptation
+          </h5>
+          <p>
+            <a href="https://2022.acmmm.org/" class="uline-special"><span
+              style="color:red">ACM MM 2022</span></a>
+          </p>
+          <p>
+            <b>Wenxuan Ma</b>, Jinming Zhang, Shuang Li*, Chi Harold Liu, Yulin Wang, Wei Li
+          </p>
+          <p>
+            We propose to learn two embedding spaces simultaneously, one source domain-oriented and the other target domain-oriented in unsupervised domain adaptation. This is achieved using two domain-specific tokens in vision transformer.
+          </p>
+          <!-- <a href="https://singalist.github.io/" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Project Page (coming)</a> -->
+          <a href="https://arxiv.org/abs/2208.01195" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Paper</a>
+          <a href="https://github.com/BIT-DA/Domain-Oriented-Transformer" class="btn btn-outline-primary btn-sm" role="button"
+            aria-pressed="true">Code</a>
         </td>
       </tr>
 

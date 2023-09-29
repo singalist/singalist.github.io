@@ -1,5 +1,5 @@
 # Site settings
-title:       Wenxuan Ma
+title:       Wenxuan Ma (马文轩)
 email:       wenxuanma@bit.edu.cn
 author:      Wenxuan Ma
 description: "Wenxuan Ma's personal website."
@@ -42,10 +42,10 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: singalist
 bitbucket_username:
 stackoverflow_id:
-twitter_username: 
+twitter_username: Singalist
 skype_username:
 steam_nickname:
 google_plus_id:
